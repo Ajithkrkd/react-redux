@@ -1,6 +1,7 @@
 
 
 import './App.css'
+import Counter from './features/counter/Counter'
 
 function App() {
 
@@ -8,7 +9,7 @@ function App() {
   return (
     <>
       <main>
-        
+        <Counter/>
       </main>
     </>
   )
