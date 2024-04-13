@@ -1,6 +1,7 @@
 
 
 import './App.css'
+import PostsList from './features/posts/PostsList'
 
 function App() {
 
@@ -8,7 +9,7 @@ function App() {
   return (
     <>
       <main>
-        
+        <PostsList/>
       </main>
     </>
   )
